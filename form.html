@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br.">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <div>
+       <h1 id="titulo">Cadastro de Cliente</h1>
+       <p id="subtitulo ">Complete suas iformações</p>
+       <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="campo">
+            <label for="dev">Qual lado da aplicação você desenvolve?</label><br>
+            <label for="front">
+                <input type="radio" name="devweb" value="front-end"> front-end  
+            </label>
+            <label for="back">
+                <input type="radio" name="devwewb" value="back-end">back-end
+            </label>
+            <label for="full">
+                <input type="radio" name="devweb" value="full-stack">full-stack
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="seni">Senioridade</label>
+            <select id="Senioridade">
+                <option selected disabled value="">Selecione</option>
+                <option>Junior</option>
+                <option>Pleno</option>
+                <option>Senior</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label>Selecione as linguagens que você conhece:</label><br>
+                <input type="checkbox" name="html" id="html">html
+                <input type="checkbox=" name="css" id="css">css
+                <input type="checkbox" name="javascript" id="javascript">javascript
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label >Qual sua experiência</label>
+            <textarea row="6" style="width: 26 em" id="exp" name="exp"></textarea>
+        </div>
+
+        <button type="submit">FIM!</button>
+    </form>
+
+</body>
+</html>
