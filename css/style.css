@@ -1,64 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-body{
-    background: #186A3B;
-    color: white;
-    font-weight: 500;
-    display: flex;
-    min-height: 100vh;
-    min-width: 100vw;
+body {
+  background: #186a3b;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  text-align: center;
 }
-main h1{
-    color: #FFC300;
-    font-size: 3rem;
-    margin-bottom: 3rem;
-    text-align: center;
+main h1 {
+  color: #ffc300;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 main form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main form label {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 main form label span {
-    font-size: 1.1rem;
-    margin-top: 2rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
 }
 main form input {
-    background: #DAF7A6;
-    width: 300px;
-    height: 50px;
-    padding: 0 0.5rem;
-    margin-top: 1rem;
-    outline: none;
-    color: #FF5733;
-    font-size: 1rem;
-    border: 1px solid #C70039;
-    border-radius: 8px;
+  background: #daf7a6;
+  width: 300px;
+  height: 50px;
+  padding: 0 0.5rem;
+  margin-top: 1rem;
+  outline: none;
+  color: #ff5733;
+  font-size: 1rem;
+  border: 1px solid #c70039;
+  border-radius: 8px;
 }
 main form input[type="submit"] {
-    cursor: pointer;
-    width: 50%;
-    margin-top: 4rem;
-    border: none;
-    border-radius: 32px;
-    background: #FF5733;
-    color: white;
-    font-size: 1.1rem;
-    transition: all .3s ease-in-out;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 4rem;
+  border: none;
+  border-radius: 32px;
+  background: #ff5733;
+  color: white;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
 }
 main form input[type="submit"]:hover {
-    background: #FF5733;
-}
-.img{
-    
+  background: #ff5733;
 }
