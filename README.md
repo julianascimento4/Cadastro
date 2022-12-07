@@ -26,7 +26,7 @@ Este projeto foi desenvolvido com base em meus conhecimentos em HTML e CSS
 ## 🔖 Layout
 
 <p align="center">
-  <img alt="preview" src=".github/preview.png">
+  <img alt="preview" src=".github/preview.png" width="100%">
 </p>
 
 ## :memo: Licença
