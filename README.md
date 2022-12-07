@@ -26,7 +26,7 @@ Este projeto foi desenvolvido com base em meus conhecimentos em HTML e CSS
 ## 🔖 Layout
 
 <p align="center">
-  
+  <img alt="preview" src=".github/preview.png">
 </p>
 
 ## :memo: Licença
@@ -35,4 +35,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ❤️ by Pedro Henriqque
+Feito com ❤️ by Júlia Nascimento 
